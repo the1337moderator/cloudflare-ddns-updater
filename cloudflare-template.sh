@@ -6,8 +6,8 @@ auth_method="token"                                # Set to "global" for Global 
 auth_key=""                                        # Your API Token or Global API Key
 zone_identifier=""                                 # Can be found in the "Overview" tab of your domain
 record_name=""                                     # Which record you want to be synced
-ttl="3600"                                         # Set the DNS TTL (seconds)
-proxy=false                                        # Set the proxy to true or false
+ttl="3600"                                         # Set the DNS TTL (seconds). Use "1" for Auto. 
+proxy=false                                        # Set the proxy to true or false. If set to true, will override ttl.
 
 
 
